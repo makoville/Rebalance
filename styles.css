@@ -1,0 +1,197 @@
+*{
+    margin-top: 0;
+}
+
+/* mobile design */
+
+.icons p{
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.container{
+    width: 94%;
+    margin: 0 auto;
+}
+
+.container .head{
+    text-align: center;
+}
+
+.container .line{
+    height: 6px;
+}
+
+.container hr {
+    height: 3px;
+    background-color: black;
+    border: black;
+}
+
+h2{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 28px;
+}
+
+.click, .box{
+    color: orangered;
+    border: 2px solid black;
+    background-color: white;
+    font-weight: 400px;
+    padding: 10px 16px;
+    margin-bottom: 40px;
+}
+
+.box:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.search:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.square{
+    text-align: center;
+}
+
+.click:after {
+    content: ' \02C5';
+    color: orangered;
+}
+
+/* card design */
+
+.photo img{
+    width: 100%;
+}
+
+.photo img:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.card:hover {
+    color: #696969;
+ }
+
+ .tags{
+     color: orangered;
+ }
+
+ .card:hover .tags {
+    color: #696969;
+ }
+
+.card{
+    margin-top: 28px;
+}
+
+.card h4{
+    display: inline-block;
+
+}
+
+.card h4 a:hover{
+text-decoration: underline;
+cursor: pointer;
+
+}
+
+ .card h4 a {
+    text-decoration: none;
+    font-size: 14px;
+    
+    } 
+
+ .card h1 a{
+     font-size: 24px;
+ }   
+
+ .card h1 a:hover{
+    text-decoration: underline solid orangered;
+    cursor: pointer;
+    }
+
+ .card p{
+    font-family: sans-serif;
+ }
+
+ .search{
+    color: orangered;
+    border: 2px solid black;
+    background-color: white;
+    font-weight: 400px;
+    padding: 10px 16px;
+ }
+
+
+
+ .end a:hover{
+color: orangered;
+text-decoration: underline solid orangered;
+cursor: pointer;
+ }
+
+ .end{
+     margin-top: 24px;
+ }
+
+ textarea{
+     width: 100%;
+     height: 30px;
+     border: 2px solid black;
+     margin-bottom: 20px;
+ }
+
+ /* tablet design starts here */
+
+ @media screen and (min-width:780px){
+     .one, .two{
+         display: flex;
+         justify-content: space-around;
+         flex-direction: row;
+         width: 100%;
+         flex-wrap: wrap;
+        
+     }
+
+     .card{
+         flex-grow: 40%;
+         max-width: 40%;
+         margin-top: 6px;
+         cursor: pointer;
+     }
+
+     .none{
+         display: none;
+     }
+
+     .photo img:hover{
+        opacity: 100;}
+
+  .card:hover {
+ color: white;    
+background-color: orangered;
+}
+.card{
+    padding: 2em 34px;
+}
+
+.card:hover .tags {
+    color: white;
+
+ }
+
+ .card h1 a:hover{
+    text-decoration: underline solid white;
+    cursor: pointer;}
+
+
+
+ }
+
